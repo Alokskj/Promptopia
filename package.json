@@ -9,13 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vonage/server-sdk": "^3.6.0",
     "autoprefixer": "10.4.14",
+    "bcrypt": "^5.1.0",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.7",
+    "mongoose": "^7.3.1",
     "next": "13.4.7",
+    "next-auth": "^4.22.1",
+    "next-connect": "^1.0.0",
     "postcss": "8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2"
+    "socket.io": "^4.7.1",
+    "socket.io-client": "^4.7.1",
+    "tailwindcss": "3.3.2",
+    "twilio": "^4.13.0"
+  },
+  "devDependencies": {
+    "nodemailer": "^6.9.3"
   }
 }
